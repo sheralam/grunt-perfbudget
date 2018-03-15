@@ -35,8 +35,8 @@ These can be set in your Gruntfile.js config file like so:
 perfbudget: {
   default: {
     options: {
-      url: 'http://google.com',
-      key: 'API_KEY_HERE'
+          url: 'http://cdn.intrafish.com',
+          key: 'A.3927563394357a3ec6f5143930b65ed4'
     }
   }
 }
@@ -48,6 +48,8 @@ With these configuration properties set, you can add `perfbudget` to your defaul
 
 With this in place, grunt-perfbudget will now test your site against the default performance budget settings to see if you're passing.
 
+### Run
+In the project directory run 'grunt perfbudget'
 
 ### Options
 

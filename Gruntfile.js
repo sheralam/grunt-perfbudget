@@ -30,12 +30,21 @@ module.exports = function(grunt) {
 
     // Configuration to be run (and then tested).
     perfbudget: {
-      foo: {
+      cdn_ifm_com: {
         options: {
-          url: 'http://google.com',
-          key: 'YOUR_API_KEY_HERE',
+          url: 'http://cdn.intrafish.com',
+          key: 'A.3927563394357a3ec6f5143930b65ed4',
           budget: {
-            SpeedIndex: '1500'
+            SpeedIndex: '3500'
+          }
+        }
+      },
+      www_ifm_com: {
+        options: {
+          url: 'http://www.intrafish.com',
+          key: 'A.3927563394357a3ec6f5143930b65ed4',
+          budget: {
+            SpeedIndex: '3500'
           }
         }
       }
